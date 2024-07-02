@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-github-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.5.2",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0"
+  }
+}
